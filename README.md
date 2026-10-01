@@ -99,24 +99,23 @@ The frontend communicates with the Spring Boot backend through REST endpoints. T
 
 ## 👩‍💻 My Contribution
 
-This section documents the parts of the project I personally worked on.
+My main responsibility in the three-person team is the frontend development of the application.
 
-**To be completed with my concrete responsibilities and implementations.**
+I implemented most of the Vue.js frontend, including:
 
-Examples may include:
+- user-facing views for found and missing animal reports
+- organisation dashboard and case-management views
+- reusable components such as navigation, cards and organisation-specific UI elements
+- Vue Router configuration
+- Pinia stores for organisation data, capacity and cases
+- frontend data structures
+- UI implementation with Vue.js and Vuetify
+- integration of frontend workflows with backend APIs
 
-- backend entities and data modelling
-- REST endpoints
-- Spring Boot services
-- Vue components and forms
-- frontend/backend integration
-- validation
-- database work
-- authentication and roles
-- testing and debugging
-- Git workflow and team coordination
+The authentication store, validation logic and photo upload component were implemented by other team members.
 
-Only work I personally contributed to the team project will be documented here.
+For a more detailed breakdown of my work, see  
+[My Contribution](docs/my-contribution.md).
 
 ## 🧠 What I Learned
 
